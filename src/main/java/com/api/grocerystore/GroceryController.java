@@ -12,7 +12,7 @@ public class GroceryController {
     @Autowired
     GroceryService groceryService;
 
-    @RequestMapping("/getAllProducts")
+    @RequestMapping("/Products")
     public Resp getProducts(){
 
         return new Resp(groceryService.getProducts());
