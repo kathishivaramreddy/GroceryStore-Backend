@@ -15,4 +15,7 @@ public class GroceryService {
         return groceryRepository.getproducts();
     }
 
+    public List<Grocery> getFruits() {
+        return groceryRepository.getFruits();
+    }
 }
